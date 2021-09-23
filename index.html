@@ -4,11 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript"src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
     <link rel="stylesheet" href="./style.css">
     <title>Document</title>
     
 </head>
+<header>
+    <!-- where the title and the current date and time will be  -->
+    <h1>MiniProject</h1>
+    <!-- use jquery to link the date and time to the header -->
+    <h2 class="time"></h2>
+    <h2></h2>
+</header>
 <body>
+    <!-- jQuery would be used to make the dropdown section -->
+    <aside class="instruct">
+        <form id=“instructions”>
+            <input type=“text” class=“form-input w-100” id=“instruction-input” name=“shopping-input” placeholder="Add Project" />
+            <button class=“btn btn-info”>Add </button>    
+        
+            <ul id=“project-list”>
+                <li>Name of Project</li>
+                <li>Due Date (DD/MM/2021)</li>
+                <li>Grade</li>
+                <button class="addProject">Add Project</button>
+            </ul>
+        </form>
+    </aside>
+    
+    <section></section>
+    <script src=“https://code.jquery.com/jquery-3.5.1.min.js”></script>
     <script src="./script.js"></script>
 </body>
 </html>

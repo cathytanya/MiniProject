@@ -4,3 +4,4 @@ let projectFormEl = $("#project-form");
 $("#submit").click(function(){
 
 });
+// local storage
